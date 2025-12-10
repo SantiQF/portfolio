@@ -189,3 +189,34 @@ a {
     padding-inline: 5vw;
   }
 }
+
+/* --- CENTRAR CONTENIDO GLOBAL (OPCIÓN B) --- */
+
+.section, 
+.hero-text, 
+.cards, 
+.card, 
+.contact-info, 
+.footer, 
+#servicios, 
+#proyectos {
+  text-align: center;
+}
+
+/* Mejoras visuales al centrar */
+.hero {
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text p,
+.section p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centrar cards dentro del grid */
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
