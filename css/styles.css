@@ -215,6 +215,19 @@ a {
   margin-right: auto;
 }
 
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero-buttons a,
+.hero-buttons button {
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* Centrar cards dentro del grid */
 .card {
   margin-left: auto;
